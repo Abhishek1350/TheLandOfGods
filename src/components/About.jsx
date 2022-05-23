@@ -6,6 +6,7 @@ import './css/about.css'
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
+    document.title="About - The Land Of Gods"
   }, [])
   return (
     <>
