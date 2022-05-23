@@ -1,0 +1,177 @@
+
+.about-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+.about__heading {
+    font-size: 100px;
+    color: #fff;
+}
+
+
+.about__description {
+    font-size: 60px;
+    background: linear-gradient(45deg, #ffffff, #a8cbff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.about-btn {
+    background: #ebefff;
+    padding: 18px 30px;
+    color: #000000;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 11px;
+    transition: 0.5s ease;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 30px;
+}
+
+.about-btn:hover {
+    background: #000000;
+    color: #ebefff;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+/* --------------------Story-------------------- */
+.story-container {
+    background: #fcfcff;
+    text-align: justify;
+white-space: normal;
+}
+
+.story-container h2{
+   padding-top: 15px;
+}
+
+.story-container P {
+    padding: 30px 200px;
+    line-height: 1.4;
+}
+
+/* ----------------------Contact Form--------------------- */
+
+
+form p{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contact__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vw 3vw;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+form input, textarea {
+   border: 2px solid #000;
+    border-radius: 10px;
+    margin:10px 0;
+    padding: 13px;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+textarea{
+    resize: none;
+
+}
+
+form button{
+    background: #dbe2ff;
+    padding: 11px 0;
+    color: #000000;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 11px;
+    transition: 0.5s ease;
+    width: 40%;
+    margin: auto;
+}
+
+form button:hover{
+    background: #000000;
+    color: #ebefff;
+    border: 2px solid #001aff;
+    border-radius: 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+@media screen and (max-width:700px) {
+
+    .about__heading {
+        font-size: 50px;
+    }
+
+    .about__description {
+        font-size: 40px;
+    }
+
+    .story-container h2 {
+        padding-top: 15px;
+    }
+
+    .story-container P {
+        padding: 6px 8px 10px 6px;
+    }
+    form{
+        width: 95%;
+    }
+    
+    form button{
+        width: 70%;
+        padding: 8px 0;
+    }
+    
+}
+
+@media screen and (max-width:370px) {
+
+    .paragraph{
+        font-size: 1.1rem;
+    }
+    
+}

@@ -1,0 +1,181 @@
+/* ============================Google Fonts======================= */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Space+Grotesk&display=swap');
+
+/* =================================Utility Classes====================== */
+.heading {
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+.paragraph {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.nav-content {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    /* background: #000000; */
+}
+
+.navbar.sticky {
+    padding: 10px 0;
+    background: #1b1b1b;
+}
+
+.navbar .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-links {
+    display: inline-flex;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 30px;
+    background: linear-gradient(to right, #ff0000, #f7f7f7, #00ff62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    transition: 0.4s;
+}
+
+.nav-links li a:hover {
+    color: #1eff00;
+}
+
+.icon {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.close-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.navbar .logo img {
+    width: 40px;
+    position: relative;
+    top: 2px;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+@media only screen and (max-width:902px) {
+    .navbar .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        background: #222;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    .navbar .nav-links.active {
+        left: 0%;
+    }
+
+    .navbar .nav-links li {
+        margin-top: 45px;
+    }
+
+    .navbar .nav-links li a {
+        font-size: 26px;
+        margin: auto;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .icon.hide {
+        display: none;
+    }
+
+    .navbar .logo a {
+        font-size: 25px;
+    }
+
+    .navbar .logo img {
+        top: 5px;
+    }
+
+    .mobile-logo {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .navbar .mobile-logo img {
+        width: 60px;
+        top: 8px;
+    }
+
+    .navbar .mobile-logo a {
+        font-size: 30px;
+    }
+
+    body.disabledScroll {
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1.2rem;
+    }
+}

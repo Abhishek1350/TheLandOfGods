@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import TopPlaces from './components/TopPlaces';
+import About from './components/About';
+import Footer from './components/Footer';
+import Login from './components/Login';
+import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
+  const [isAuth, setIsAuth] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/pages/topplaces" element={<TopPlaces/>}/>
+        <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/login" element={<Login setIsAuth={setIsAuth}/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
+
   );
 }
 
