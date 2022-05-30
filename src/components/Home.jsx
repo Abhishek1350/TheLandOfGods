@@ -1,13 +1,13 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import "./css/home.css"
 
 const Home = () => {
 
     useEffect(() => {
-        window.scrollTo(0,0)
-        document.title="Chamba - The Land Of Gods"
-      },[])
+        window.scrollTo(0, 0)
+        document.title = "Chamba - The Land Of Gods"
+    }, [])
 
     return (
         <>
@@ -74,7 +74,7 @@ const Home = () => {
 
                 <div className="overview-box odd">
                     <div className="overview-left">
-                        <p className="paragraph" style={{fontWeight:"bold"}}>Chamera Lake</p>
+                        <p className="paragraph" style={{ fontWeight: "bold" }}>Chamera Lake</p>
                         <p className="paragraph">
                             On the route from Chamba to Dalhousie, the lake of Chamera Dam backwaters have developed into a
                             popular getaway. Water sport activities of boating, kayaking, canoeing, sailing and fishing are
@@ -93,7 +93,7 @@ const Home = () => {
                         <img src="./images/home/Bharmaur-min.jpg" alt="Bharmaur" width="350" className="overview-img" />
                     </div>
                     <div className="overview-left">
-                        <p className="paragraph" style={{fontWeight:"bold"}}>Bharmaur</p>
+                        <p className="paragraph" style={{ fontWeight: "bold" }}>Bharmaur</p>
                         <p className="paragraph">
                             Having been the seat of power for four centuries, Bharmaur was known for its grandiose and royal
                             benevolence. Remains and monuments, best exemplified in the Chaurasi temple complex, exhibit the
@@ -106,7 +106,7 @@ const Home = () => {
 
                 <div className="overview-box odd">
                     <div className="overview-left">
-                        <p className="paragraph" style={{fontWeight:"bold"}}>Khajjiar</p>
+                        <p className="paragraph" style={{ fontWeight: "bold" }}>Khajjiar</p>
                         <p className="paragraph">
                             Often compared with Swiss mountain meadows, Khajjiar is a wide grassy clearing around a pond with a
                             thick cedar forest. On higher ground near the pond is the small temple of Khajji Nag that dates to
@@ -124,7 +124,7 @@ const Home = () => {
                             className="overview-img" />
                     </div>
                     <div className="overview-left">
-                        <p className="paragraph" style={{fontWeight:"bold"}}>Shakti Devi Temple at Chhatrari</p>
+                        <p className="paragraph" style={{ fontWeight: "bold" }}>Shakti Devi Temple at Chhatrari</p>
                         <p className="paragraph">
                             Shakti Devi temple at Chhatrari, is a well documented temple of Chamba – Bharmaur built in the
                             traditional architectural style. The temple belongs to the period when the first temples of Chaurasi
@@ -137,7 +137,7 @@ const Home = () => {
                 <hr />
 
                 <div className="overview-btn">
-                    <Link to="/pages/topplaces" className="explore-btn">Explore All
+                    <Link to="/topplaces" className="explore-btn">Explore All
                         <i className="fa-solid fa-compass"></i></Link>
 
                 </div>
