@@ -1,12 +1,12 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import "./css/topplaces.css"
 
 const TopPlaces = () => {
 
   useEffect(() => {
-    window.scrollTo(0,0)
-    document.title="Top Places - The Land Of Gods"
-  },[])
+    window.scrollTo(0, 0)
+    document.title = "Top Places - The Land Of Gods"
+  }, [])
 
   return (
     <>
@@ -45,71 +45,71 @@ const TopPlaces = () => {
             <span></span>
             <a href="./top places/chamba.html">Know More</a>
           </div>
-          
+
           <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/bharmour.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Bharmour</p>
-                <span></span>
-                <a href="./top places/bharmour.html">Know More</a>
-            </div>
-            
-            <div className="top-places-box" style={{
+            <p className="paragraph">Bharmour</p>
+            <span></span>
+            <a href="./top places/bharmour.html">Know More</a>
+          </div>
+
+          <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/dalhousie.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Dalhousie</p>
-                <span></span>
-                <a href="./top places/dalhousie.html">Know More</a>
-            </div>
-            
-            <div className="top-places-box" style={{
+            <p className="paragraph">Dalhousie</p>
+            <span></span>
+            <a href="./top places/dalhousie.html">Know More</a>
+          </div>
+
+          <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/manimahesh.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Manimahesh</p>
-                <span></span>
-                <a href="./top places/manimahesh.html">Know More</a>
-            </div>
+            <p className="paragraph">Manimahesh</p>
+            <span></span>
+            <a href="./top places/manimahesh.html">Know More</a>
+          </div>
 
-            
-            <div className="top-places-box" style={{
+
+          <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/kalatop.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Kalatop</p>
-                <span></span>
-                <a href="./top places/kalatop.html">Know More</a>
-            </div>
+            <p className="paragraph">Kalatop</p>
+            <span></span>
+            <a href="./top places/kalatop.html">Know More</a>
+          </div>
 
-            
-            <div className="top-places-box" style={{
+
+          <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/bhalei.jpeg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Bhalei Mata Temple</p>
-                <span></span>
-                <a href="./top places/bhalei.html">Know More</a>
-            </div>
-            
-            <div className="top-places-box" style={{
+            <p className="paragraph">Bhalei Mata Temple</p>
+            <span></span>
+            <a href="./top places/bhalei.html">Know More</a>
+          </div>
+
+          <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/tissa.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Tissa</p>
-                <span></span>
-                <a href="./top places/tissa.html">Know More</a>
-            </div>
-            
-            <div className="top-places-box" style={{
+            <p className="paragraph">Tissa</p>
+            <span></span>
+            <a href="./top places/tissa.html">Know More</a>
+          </div>
+
+          <div className="top-places-box" style={{
             backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/pangi.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
-                <p className="paragraph">Pangi</p>
-                <span></span>
-                <a href="./top places/pangi.html">Know More</a>
-            </div>
+            <p className="paragraph">Pangi</p>
+            <span></span>
+            <a href="./top places/pangi.html">Know More</a>
+          </div>
 
 
 

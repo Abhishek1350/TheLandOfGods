@@ -1,4 +1,3 @@
-
 .about-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/about.jpg);
     background-position: center;
@@ -59,11 +58,11 @@
 .story-container {
     background: #fcfcff;
     text-align: justify;
-white-space: normal;
+    white-space: normal;
 }
 
-.story-container h2{
-   padding-top: 15px;
+.story-container h2 {
+    padding-top: 15px;
 }
 
 .story-container P {
@@ -74,12 +73,12 @@ white-space: normal;
 /* ----------------------Contact Form--------------------- */
 
 
-form p{
+form p {
     padding: 10px 0;
     text-align: center;
 }
 
-.contact__container{
+.contact__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +87,7 @@ form p{
     background-size: cover;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     padding: 1.5vw 3vw;
@@ -99,20 +98,20 @@ form{
 }
 
 form input, textarea {
-   border: 2px solid #000;
+    border: 2px solid #000;
     border-radius: 10px;
-    margin:10px 0;
+    margin: 10px 0;
     padding: 13px;
     font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-textarea{
+textarea {
     resize: none;
 
 }
 
-form button{
+form button {
     background: #dbe2ff;
     padding: 11px 0;
     color: #000000;
@@ -126,17 +125,17 @@ form button{
     margin: auto;
 }
 
-form button:hover{
+form button:hover {
     background: #000000;
     color: #ebefff;
     border: 2px solid #001aff;
     border-radius: 8px;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none; 
-    margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 
@@ -157,21 +156,22 @@ input[type=number]::-webkit-outer-spin-button {
     .story-container P {
         padding: 6px 8px 10px 6px;
     }
-    form{
+
+    form {
         width: 95%;
     }
-    
-    form button{
+
+    form button {
         width: 70%;
         padding: 8px 0;
     }
-    
+
 }
 
 @media screen and (max-width:370px) {
 
-    .paragraph{
+    .paragraph {
         font-size: 1.1rem;
     }
-    
+
 }

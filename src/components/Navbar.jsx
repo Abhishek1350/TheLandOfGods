@@ -21,8 +21,7 @@ const Navbar = () => {
     setMenuBtnClassList("")
     body.classList.remove("disabledScroll");
   }
-
-
+  
   window.onscroll = () => {
     window.scrollY > 20 ? setNavClassList("sticky") : setNavClassList("")
   }

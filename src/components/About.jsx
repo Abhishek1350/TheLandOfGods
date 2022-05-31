@@ -6,8 +6,9 @@ import './css/about.css'
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title="About - The Land Of Gods"
+    document.title = "About - The Land Of Gods"
   }, [])
+  
   return (
     <>
 
@@ -21,7 +22,7 @@ const About = () => {
       </section>
 
       <section className="story" id="story">
-        <div className="story-container" style={{background: "#e3e3ec"}}>
+        <div className="story-container" style={{ background: "#e3e3ec" }}>
           <h2 className="heading">
             How I Learned ?
           </h2>
@@ -48,7 +49,7 @@ const About = () => {
             <input type="email" name="email" id="email" placeholder="Email Id :" required />
             <input type="number" name="phone" id="phone" placeholder="Phone Number :" required />
             <textarea name="message" id="message" rows="4" placeholder="Message :" required></textarea>
-            <button type="button" onClick={()=>swal ( "Sorry" ,  "This Form Is Not Working Yet!" ,  "error" )}>Send <i className="fa-solid fa-paper-plane"></i></button>
+            <button type="button" onClick={() => swal("Sorry", "This Form Is Not Working Yet!", "error")}>Send <i className="fa-solid fa-paper-plane"></i></button>
           </form>
         </div>
       </section>
