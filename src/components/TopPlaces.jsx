@@ -29,7 +29,7 @@ const TopPlaces = () => {
         <div className="top-places-grid-wrapper">
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/khajjiar.jpeg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/khajjiar.jpeg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Khajjiar</p>
@@ -38,7 +38,7 @@ const TopPlaces = () => {
           </div>
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/chamba.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/chamba.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Chamba</p>
@@ -47,7 +47,7 @@ const TopPlaces = () => {
           </div>
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/bharmour.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/bharmour.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Bharmour</p>
@@ -56,7 +56,7 @@ const TopPlaces = () => {
           </div>
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/dalhousie.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/dalhousie.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Dalhousie</p>
@@ -65,7 +65,7 @@ const TopPlaces = () => {
           </div>
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/manimahesh.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/manimahesh.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Manimahesh</p>
@@ -75,7 +75,7 @@ const TopPlaces = () => {
 
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/kalatop.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/kalatop.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Kalatop</p>
@@ -85,7 +85,7 @@ const TopPlaces = () => {
 
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/bhalei.jpeg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/bhalei.jpeg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Bhalei Mata Temple</p>
@@ -94,7 +94,7 @@ const TopPlaces = () => {
           </div>
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/tissa.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/tissa.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Tissa</p>
@@ -103,7 +103,7 @@ const TopPlaces = () => {
           </div>
 
           <div className="top-places-box" style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/topplaces/pangi.jpg)", backgroundPosition: "center",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/topplaces/pangi.jpg)", backgroundPosition: "center",
             backgroundSize: "cover"
           }}>
             <p className="paragraph">Pangi</p>
