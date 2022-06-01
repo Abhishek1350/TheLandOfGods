@@ -16,8 +16,7 @@ const About = () => {
         <div className="home__container">
           <h1 className="heading about__heading">Abhishek</h1>
           <p className="about__description">Independent Web Developer</p>
-          <a href="#story" className="about-btn">Know More
-            <i className="fa-solid fa-caret-down"></i></a>
+          <a href="#story" className="about-btn">Know More <i className="fa-solid fa-caret-down"></i></a>
         </div>
       </section>
 

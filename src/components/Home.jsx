@@ -15,8 +15,7 @@ const Home = () => {
                 <div className="home__container">
                     <h1 className="heading home__heading">Welcome To <span>Chamba</span></h1>
                     <p className="paragraph home__description">The Land Of Gods</p>
-                    <a href="#information" className="explore-btn">Explore
-                        <i className="fa-solid fa-compass"></i></a>
+                    <a href="#information" className="explore-btn">Explore <i className="fa-solid fa-compass"></i></a>
                 </div>
             </section>
 
@@ -137,8 +136,7 @@ const Home = () => {
                 <hr />
 
                 <div className="overview-btn">
-                    <Link to="/topplaces" className="explore-btn">Explore All
-                        <i className="fa-solid fa-compass"></i></Link>
+                    <Link to="/topplaces" className="explore-btn">Explore All <i className="fa-solid fa-compass"></i></Link>
 
                 </div>
             </section>

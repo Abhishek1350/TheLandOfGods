@@ -149,6 +149,10 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 40px;
     }
 
+    .about-btn {
+        background: #ebefff;
+        padding: 12px 22px;
+    }
     .story-container h2 {
         padding-top: 15px;
     }
@@ -163,7 +167,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     form button {
         width: 70%;
-        padding: 8px 0;
+        padding: 12px 0;
     }
 
 }

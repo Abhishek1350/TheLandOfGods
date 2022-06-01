@@ -31,21 +31,6 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.explore-btn {
-    background: #e3f8ff;
-    padding: 15px 30px;
-    color: #000000;
-    font-family: 'Secular One', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-    border: 2px solid #000;
-    border-radius: 11px;
-    transition: 0.5s ease;
-    margin-top: 30px;
-    text-decoration: none;
-    font-family: 'Space Grotesk', sans-serif;
-}
-
 .explore-btn:hover {
     background: #000000;
     color: #ebefff;
@@ -158,11 +143,7 @@
     }
 
     .topplaces__description {
-        font-size: 35px;
-    }
-
-    .explore-btn {
-        padding: 10px 20px;
+        font-size: 40px;
     }
 
     .top-places-container {
