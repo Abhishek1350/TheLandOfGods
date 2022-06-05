@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './css/navbar.css'
-import { Link } from 'react-router-dom'
+import { Link,NavLink } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -36,9 +36,9 @@ const Navbar = () => {
               <i className="fas fa-times"></i>
             </div>
             <div className="logo mobile-logo" onClick={() => { closeNav() }}><Link to="/"><img src="./logo.png" alt="chamba" /> The Land Of Gods</Link></div>
-            <li onClick={() => { closeNav() }}><Link to="/">Home</Link></li>
-            <li onClick={() => { closeNav() }}><Link to="/topplaces">Top Places</Link></li>
-            <li onClick={() => { closeNav() }}><Link to="/about">About</Link></li>
+            <li onClick={() => { closeNav() }}><NavLink to="/" className={({isActive}) => (isActive ? "active-link" : 'none')} >Home</NavLink></li>
+            <li onClick={() => { closeNav() }}><NavLink to="/topplaces" className={({isActive}) => (isActive ? "active-link" : 'none')}>Top Places</NavLink></li>
+            <li onClick={() => { closeNav() }}><NavLink to="/about" className={({isActive}) => (isActive ? "active-link" : 'none')}>About</NavLink></li>
           </ul>
           <div className={`icon menu-btn ${menuBtnClassList}`} onClick={() => { openNav() }}>
             <i className="fas fa-bars"></i>

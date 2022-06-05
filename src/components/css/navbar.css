@@ -75,7 +75,7 @@
     text-decoration: none;
     margin-left: 40px;
     font-family: 'Space Grotesk', sans-serif;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .nav-links li a:hover {
@@ -103,6 +103,10 @@
 
 .mobile-logo {
     display: none;
+}
+
+.nav-links li a.active-link{
+    border-bottom: 3px solid #00ff62;
 }
 
 @media only screen and (max-width:902px) {
