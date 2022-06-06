@@ -1,13 +1,52 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import swal from 'sweetalert'
 import './css/about.css'
 
 
 const About = () => {
+  const [inputData, setInputData] = useState({ name: "", email: "", phone: "", message: "" })
+
   useEffect(() => {
     window.scrollTo(0, 0)
     document.title = "About - The Land Of Gods"
   }, [])
+
+  let name, value;
+  const handleChange = (e) => {
+    name = e.target.name;
+    value = e.target.value;
+    setInputData({ ...inputData, [name]: value })
+  }
+
+  const sendMail = () => {
+    const { name, email, phone, message } = inputData
+    if (!name || !email || !phone || !message) {
+      return swal("Opps!", " something went wrong!", "error");
+    }
+    
+    window.Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: process.env.REACT_APP_USER_NAME,
+      Password: process.env.REACT_APP_PASSWORD,
+      To: process.env.REACT_APP_TO_EMAIL,
+      From: process.env.REACT_APP_FROM_EMAIL,
+      Subject: "New Query",
+      Body: "Name : " + name
+        + "<br> Email : " + email
+        + "<br> Phone Number : " + phone
+        + "<br> message : " + message
+    }).then(
+      (message) => {
+        if (message === "OK") {
+          swal("Thanks!", " " + inputData.name + ". Your message is delivered. We will contact you soon.", "success");
+          setInputData({ name: "", email: "", phone: "", message: "" })
+        }
+        else {
+          swal("Opps!", " " + inputData.name + " something went wrong!", "error");
+          console.error(message);
+        }
+      });
+  };
 
   return (
     <>
@@ -42,12 +81,12 @@ const About = () => {
             Available For Freelancing
           </p>
 
-          <form>
-            <input type="text" id="name" placeholder="Your Name :" required />
-            <input type="email" name="email" id="email" placeholder="Email Id :" required />
-            <input type="number" name="phone" id="phone" placeholder="Phone Number :" required />
-            <textarea name="message" id="message" rows="4" placeholder="Message :" required></textarea>
-            <button type="button" onClick={() => swal("Sorry", "This Form Is Not Working Yet!", "error")}>Send <i className="fa-solid fa-paper-plane"></i></button>
+          <form >
+            <input type="text" name="name" onChange={handleChange} value={inputData.name} placeholder="Your Name :" required />
+            <input type="email" name="email" onChange={handleChange} value={inputData.email} placeholder="Email Id :" required />
+            <input type="number" name="phone" onChange={handleChange} value={inputData.phone} placeholder="Phone Number :" required />
+            <textarea name="message" onChange={handleChange} value={inputData.message} rows="4" placeholder="Message :" required></textarea>
+            <button type="button" onClick={sendMail} >Send  <i className="fa-solid fa-paper-plane"></i></button>
           </form>
         </div>
       </section>

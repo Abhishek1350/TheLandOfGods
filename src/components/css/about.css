@@ -49,7 +49,7 @@
 
 .about-btn:hover {
     background: #000000;
-    color: #ebefff;
+    color: #f0f2f8;
     border: 2px solid #ffffff;
     border-radius: 8px;
 }
@@ -123,6 +123,7 @@ form button {
     transition: 0.5s ease;
     width: 40%;
     margin: auto;
+    cursor: pointer;
 }
 
 form button:hover {
