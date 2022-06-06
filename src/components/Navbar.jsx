@@ -30,7 +30,7 @@ const Navbar = () => {
     <>
       <nav className={`navbar ${navClassList}`}>
         <div className="nav-content">
-          <div className="logo"><Link to="/"><img src="./logo.png" alt="chamba" /> The Land Of Gods</Link></div>
+          <div className="logo"><Link to="/"><img src="../logo.png" alt="chamba" /> The Land Of Gods</Link></div>
           <ul className={`nav-links ${menuClassList}`}>
             <div className="icon close-btn" onClick={() => { closeNav() }}>
               <i className="fas fa-times"></i>

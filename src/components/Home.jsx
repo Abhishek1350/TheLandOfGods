@@ -82,14 +82,14 @@ const Home = () => {
                             Chamba.</p>
                     </div>
                     <div className="overview-right odd-img">
-                        <img src="./images/home/Chamera-Lake-chamba.jpg" alt="chamera lake" width="350" className="overview-img" />
+                        <img src="../images/home/Chamera-Lake-chamba.jpg" alt="chamera lake" width="350" className="overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div className="overview-box even">
                     <div className="overview-right even-img">
-                        <img src="./images/home/Bharmaur-min.jpg" alt="Bharmaur" width="350" className="overview-img" />
+                        <img src="../images/home/Bharmaur-min.jpg" alt="Bharmaur" width="350" className="overview-img" />
                     </div>
                     <div className="overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Bharmaur</p>
@@ -112,14 +112,14 @@ const Home = () => {
                             the 12th century AD.</p>
                     </div>
                     <div className="overview-right odd-img">
-                        <img src="./images/home/Khajjiar.jpg" alt="Khajjiar" width="350" className="overview-img" />
+                        <img src="../images/home/Khajjiar.jpg" alt="Khajjiar" width="350" className="overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div className="overview-box even">
                     <div className="overview-right even-img">
-                        <img src="./images/home/Folk-Dance-Chamba.jpg" alt="Shakti Devi Temple" width="350"
+                        <img src="../images/home/Folk-Dance-Chamba.jpg" alt="Shakti Devi Temple" width="350"
                             className="overview-img" />
                     </div>
                     <div className="overview-left">

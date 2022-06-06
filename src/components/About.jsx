@@ -8,10 +8,9 @@ const About = () => {
     window.scrollTo(0, 0)
     document.title = "About - The Land Of Gods"
   }, [])
-  
+
   return (
     <>
-
       <section className="about-home">
         <div className="home__container">
           <h1 className="heading about__heading">Abhishek</h1>

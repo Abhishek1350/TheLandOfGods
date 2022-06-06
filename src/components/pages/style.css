@@ -1,0 +1,199 @@
+.top-places {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+.home__heading {
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+
+.home__description {
+    font-size: 80px;
+    background: linear-gradient(45deg, #0400ff, #ff0000, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+/* ===============================place-overview============ */
+.place-overview {
+    padding: 10px 100px;
+    background-color: #fcfcff;
+    line-break: anywhere;
+    border-bottom: 2px solid #000;
+
+}
+
+.place-overview h2 {
+    padding-top: 20px;
+}
+
+.place-overview p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    white-space: normal;
+    line-break: normal
+}
+
+
+.place-overview-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.place-overview-right {
+    margin: 6px 10px;
+}
+
+.place-overview-left {
+    margin: 6px 10px;
+}
+
+.place-overview-img {
+    box-shadow: 2px 3px 6px 3px #000;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+}
+
+.place-overview-btn {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place-overview-btn a {
+    background: #b7c5ff;
+    padding: 10px 15px;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    /* width: 20%; */
+}
+
+.place-overview-btn a:hover {
+    background: #000000;
+    color: #ebefff;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* ----------------------------Places Of Interest------------------------- */
+.places-of-interest {
+    padding: 20px 150px;
+    background-color: #fcfcff;
+    text-align: justify;
+    white-space: normal;
+}
+
+.places-of-interest h2 {
+    color: #00008b;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width:1200px) {
+
+    .place-overview-box {
+        flex-direction: column;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .place-overview-img {
+        width: 500px;
+    }
+
+    .even {
+        flex-direction: column-reverse;
+    }
+
+    .place-overview-left {
+        margin: 10px;
+    }
+
+    .even-img, .odd-img {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .home__heading {
+        font-size: 46px;
+        margin: 10px 0;
+    }
+
+    .home__description {
+        font-size: 40px;
+    }
+
+    .place-overview {
+        padding: 10px 0;
+    }
+
+    .place-overview h2 {
+        margin-bottom: -40px;
+    }
+
+    .place-overview-box {
+        padding: 0 1px;
+        margin-bottom: 20px;
+    }
+
+    .place-overview-img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .places-of-interest {
+        padding: 10px 0;
+    }
+
+    .places-of-interest h2 {
+        margin-bottom: -40px;
+
+    }
+
+    .place-overview-btn a {
+        font-size: 1.2rem;
+        padding: 10px 5px;
+        border-radius: 5px;
+    }
+
+}
