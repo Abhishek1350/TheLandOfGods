@@ -4,7 +4,7 @@ https://thelandofgods.pages.dev
 ## Installation & Usage
 In the project directory, you can run:
 
-### `npm i`- only once
+### `npm i` - only once
 ### `npm start`
 
 Runs the app in the development mode.\
