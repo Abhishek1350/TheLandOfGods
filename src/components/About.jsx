@@ -21,7 +21,7 @@ const About = () => {
   const sendMail = () => {
     const { name, email, phone, message } = inputData
     if (!name || !email || !phone || !message) {
-      return swal("Opps!", " something went wrong!", "error");
+      return swal("Opps!", " Please Fill All Data!", "error");
     }
     
     window.Email.send({
