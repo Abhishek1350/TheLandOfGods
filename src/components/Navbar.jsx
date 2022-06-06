@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className="icon close-btn" onClick={() => { closeNav() }}>
               <i className="fas fa-times"></i>
             </div>
-            <div className="logo mobile-logo" onClick={() => { closeNav() }}><Link to="/"><img src="./logo.png" alt="chamba" /> The Land Of Gods</Link></div>
+            <div className="logo mobile-logo" onClick={() => { closeNav() }}><Link to="/"><img src="../logo.png" alt="chamba" /> The Land Of Gods</Link></div>
             <li onClick={() => { closeNav() }}><NavLink to="/" className={({ isActive }) => (isActive ? "active-link" : 'none')} >Home</NavLink></li>
             <li onClick={() => { closeNav() }}><NavLink to="/topplaces" className={({ isActive }) => (isActive ? "active-link" : 'none')}>Top Places</NavLink></li>
             <li onClick={() => { closeNav() }}><NavLink to="/about" className={({ isActive }) => (isActive ? "active-link" : 'none')}>About</NavLink></li>
