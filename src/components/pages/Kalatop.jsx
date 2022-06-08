@@ -11,7 +11,7 @@ const Kalatop = () => {
     return (
         <>
             <section className="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/topplaces/kalatop.jpg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/kalatop.jpg)" }}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Kalatop</h1>
                     <p className="paragraph home__description">The Heaven</p>
@@ -34,14 +34,14 @@ const Kalatop = () => {
                         </p>
                     </div>
                     <div className="overview-right odd-img">
-                        <img src="../images/topplaces/kalatop2.jpg" alt="kalatop" width="350" className="overview-img" />
+                        <img src="../../images/topplaces/kalatop2.jpg" alt="kalatop" width="350" className="overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div className="overview-box even">
                     <div className="overview-right even-img">
-                        <img src="../images/topplaces/kalatop3.jpg" alt="kalatop" width="350" className="overview-img" />
+                        <img src="../../images/topplaces/kalatop3.jpg" alt="kalatop" width="350" className="overview-img" />
                     </div>
                     <div className="overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}> </p>

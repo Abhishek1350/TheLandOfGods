@@ -10,7 +10,7 @@ const Bhalei = () => {
     return (
         <>
             <section className="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/topplaces/bhalei.jpeg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/bhalei.jpeg)" }}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Bhalei Mata Temple</h1>
                     <p className="paragraph home__description">The Holy Place</p>
@@ -34,14 +34,14 @@ const Bhalei = () => {
                     </div>
 
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/bhalei.jpeg" alt="bhalei" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/bhalei.jpeg" alt="bhalei" width="350" className="place-overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/bhalei2.jpg" alt="bhalei" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/bhalei2.jpg" alt="bhalei" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>History </p>

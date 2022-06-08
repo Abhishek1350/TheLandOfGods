@@ -11,7 +11,7 @@ const Tisa = () => {
     return (
         <>
             <section className="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/topplaces/tissa.jpg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/tissa.jpg)" }}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Tisa</h1>
                     <p className="paragraph home__description">The Heaven</p>
@@ -41,14 +41,14 @@ const Tisa = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/tissa.jpg" alt="tissa" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/tissa.jpg" alt="tissa" width="350" className="place-overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/tisa.jpg" alt="tissa" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/tisa.jpg" alt="tissa" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Gandasru Mahadev </p>

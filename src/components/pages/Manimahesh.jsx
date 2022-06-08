@@ -11,7 +11,7 @@ const Manimahesh = () => {
     return (
         <>
             <section className="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/topplaces/manimahesh.jpg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/manimahesh.jpg)" }}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Manimahesh</h1>
                     <p className="paragraph home__description">The Home Of Lord Shiva</p>
@@ -39,14 +39,14 @@ const Manimahesh = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/manihahesh3.jpg" alt="manimahesh" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/manihahesh3.jpg" alt="manimahesh" width="350" className="place-overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/manimahesh2.jpg" alt="manimahesh" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/manimahesh2.jpg" alt="manimahesh" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}> </p>
@@ -72,7 +72,7 @@ const Manimahesh = () => {
 
             <section className="places-of-interest">
                 <div className="mani-img" style={{ display: "flex", justifyContent: "center" }}>
-                    <img src="../images/topplaces/manimaheshyatra.jpg" alt="manimahesh" style={{ width: "95%" }} />
+                    <img src="../../images/topplaces/manimaheshyatra.jpg" alt="manimahesh" style={{ width: "95%" }} />
                 </div>
 
                 <div className="place-overview-btn">

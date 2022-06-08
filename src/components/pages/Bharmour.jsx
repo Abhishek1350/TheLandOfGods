@@ -11,7 +11,7 @@ const Bharmour = () => {
         <>
 
             <section className="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/topplaces/bharmour3.jpg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../../images/topplaces/bharmour3.jpg)" }}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Bharmour</h1>
                     <p className="paragraph home__description">The Place Of Lord Shiva</p>
@@ -36,14 +36,14 @@ const Bharmour = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/bharmour2.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/bharmour2.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                     </div>
                 </div>
                 <hr/>
 
                     <div className="place-overview-box even">
                         <div className="place-overview-right even-img">
-                            <img src="../images/topplaces/bharmour4.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                            <img src="../../images/topplaces/bharmour4.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                         </div>
                         <div className="place-overview-left">
                             <p className="paragraph" style={{ fontWeight: "bold" }}>Bharmour </p>
@@ -77,13 +77,13 @@ const Bharmour = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/84.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/84.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                     </div>
                 </div>
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/shaktitemple.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/shaktitemple.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Shivshakti Temple </p>
@@ -115,7 +115,7 @@ const Bharmour = () => {
                     </div>
 
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/bharmani.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/bharmani.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                     </div>
                     
                 </div>
@@ -123,7 +123,7 @@ const Bharmour = () => {
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/bannimata.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/bannimata.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Banni Mata Temple </p>
@@ -152,7 +152,7 @@ const Bharmour = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/kugti.jpg" alt="Bharmour" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/kugti.jpg" alt="Bharmour" width="350" className="place-overview-img" />
                     </div>
                 </div>
                 <hr />

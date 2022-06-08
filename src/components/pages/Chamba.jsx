@@ -10,7 +10,7 @@ const Chamba = () => {
     return (
         <>
             <section className="top-places"
-                style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../images/topplaces/chamba7.jpg)"}}>
+                style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/chamba7.jpg)"}}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Chamba</h1>
                     <p className="paragraph home__description">The Main Town</p>
@@ -31,14 +31,14 @@ const Chamba = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/chamba3.jpg" alt="Chamba" width="350" className="place-overview-img"/>
+                        <img src="../../images/topplaces/chamba3.jpg" alt="Chamba" width="350" className="place-overview-img"/>
                     </div>
                 </div>
                 <hr/>
 
                     <div className="place-overview-box even">
                         <div className="place-overview-right even-img">
-                            <img src="../images/topplaces/chamba6.jpg" alt="Chamba" width="350" className="place-overview-img"/>
+                            <img src="../../images/topplaces/chamba6.jpg" alt="Chamba" width="350" className="place-overview-img"/>
                         </div>
                         <div className="place-overview-left">
                             <p className="paragraph" style={{fontWeight:"bold"}}>Chamba</p>
@@ -69,13 +69,13 @@ const Chamba = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/chaugan.jpg" alt="Chamba" width="350" className="place-overview-img"/>
+                        <img src="../../images/topplaces/chaugan.jpg" alt="Chamba" width="350" className="place-overview-img"/>
                     </div>
                 </div>
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/chamba5.jpg" alt="lakshimi narayan temple chamba" width="350"
+                        <img src="../../images/topplaces/chamba5.jpg" alt="lakshimi narayan temple chamba" width="350"
                             className="place-overview-img"/>
                     </div>
                     <div className="place-overview-left">
@@ -113,14 +113,14 @@ const Chamba = () => {
                         </p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/suimata.jpg" alt="Chamba" width="350" className="place-overview-img"/>
+                        <img src="../../images/topplaces/suimata.jpg" alt="Chamba" width="350" className="place-overview-img"/>
                     </div>
                 </div>
 
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/bhoorising.jpg" alt="Chamba" width="350" className="place-overview-img"/>
+                        <img src="../../images/topplaces/bhoorising.jpg" alt="Chamba" width="350" className="place-overview-img"/>
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{fontWeight:"bold"}}>Bhuri Singh Museum </p>

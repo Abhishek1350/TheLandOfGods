@@ -11,7 +11,7 @@ const Khajjiar = () => {
     return (
         <>
             <section className="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/topplaces/khajjiar2.jpg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/khajjiar2.jpg)" }}>
                 <div className="home__container">
                     <h1 className="heading home__heading">Khajjiar</h1>
                     <p className="paragraph home__description">The Mini Switzerland</p>
@@ -38,7 +38,7 @@ const Khajjiar = () => {
                     </div>
 
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/khajjiar2.jpg" alt="khajjiar" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/khajjiar2.jpg" alt="khajjiar" width="350" className="place-overview-img" />
                     </div>
 
                 </div>
@@ -46,7 +46,7 @@ const Khajjiar = () => {
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/khajjiar.jpg" alt="khajjiar" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/khajjiar.jpg" alt="khajjiar" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Mini Switzerland</p>
@@ -74,13 +74,13 @@ const Khajjiar = () => {
                             thick layer of earth, formed by the years of dust settling down on the weeds.</p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/khajjiar3.jpg" alt="khajjiar" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/khajjiar3.jpg" alt="khajjiar" width="350" className="place-overview-img" />
                     </div>
                 </div>
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/khajjiar.jpg" alt="khajjiar" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/khajjiar6.jpg" alt="khajjiar" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Khajji Nag temple</p>
@@ -105,13 +105,13 @@ const Khajjiar = () => {
                             beautiful camping site.</p>
                     </div>
                     <div className="place-overview-right odd-img">
-                        <img src="../images/topplaces/khajjiar6.jpg" alt="khajjiar" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/khajjiar.jpg" alt="khajjiar" width="350" className="place-overview-img" />
                     </div>
                 </div>
 
                 <div className="place-overview-box even">
                     <div className="place-overview-right even-img">
-                        <img src="../images/topplaces/khajjiar7.jpg" alt="khajjiar" width="350" className="place-overview-img" />
+                        <img src="../../images/topplaces/khajjiar7.jpg" alt="khajjiar" width="350" className="place-overview-img" />
                     </div>
                     <div className="place-overview-left">
                         <p className="paragraph" style={{ fontWeight: "bold" }}>Paragliding</p>

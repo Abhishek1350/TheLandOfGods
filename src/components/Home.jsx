@@ -137,7 +137,6 @@ const Home = () => {
 
                 <div className="overview-btn">
                     <Link to="/topplaces" className="explore-btn">Explore All <i className="fa-solid fa-compass"></i></Link>
-
                 </div>
             </section>
 

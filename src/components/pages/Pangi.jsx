@@ -11,7 +11,7 @@ const Pangi = () => {
     return (
         <>
             <section class="top-places"
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/topplaces/pangi.jpg)" }}>
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../images/topplaces/pangi.jpg)" }}>
                 <div class="home__container">
                     <h1 class="heading home__heading">Pangi</h1>
                     <p class="paragraph home__description">The Daring Place</p>
@@ -37,14 +37,14 @@ const Pangi = () => {
                         </p>
                     </div>
                     <div class="place-overview-right odd-img">
-                        <img src="../images/topplaces/pangi4.jpg" alt="pangi" width="350" class="place-overview-img" />
+                        <img src="../../images/topplaces/pangi4.jpg" alt="pangi" width="350" class="place-overview-img" />
                     </div>
                 </div>
                 <hr />
 
                 <div class="place-overview-box even">
                     <div class="place-overview-right even-img">
-                        <img src="../images/topplaces/pangi3.jpg" alt="pangi" width="350" class="place-overview-img" />
+                        <img src="../../images/topplaces/pangi3.jpg" alt="pangi" width="350" class="place-overview-img" />
                     </div>
                     <div class="place-overview-left">
                         <p class="paragraph" style={{ fontWeight: "bold" }}> </p>
