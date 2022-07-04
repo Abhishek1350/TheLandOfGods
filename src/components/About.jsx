@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import swal from 'sweetalert'
 import './css/about.css'
 
 
 const About = () => {
-  const [inputData, setInputData] = useState({ name: "", email: "", phone: "", message: "" })
-
   useEffect(() => {
     window.scrollTo(0, 0)
     document.title = "About - The Land Of Gods"
