@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import swal from 'sweetalert'
 import './css/about.css'
 
 
